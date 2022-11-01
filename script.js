@@ -1,7 +1,7 @@
 var body = document.querySelector("body");
 var image = document.querySelector("img");
 
-var counter = 150;
+var counter = 140;
 var isRotated = false;
 var counterX = 0;
 var isRunning = false;
@@ -15,8 +15,8 @@ body.addEventListener("keydown", function (event) {
 body.addEventListener("keyup", function (event) {
   if (event.key === "ArrowUp") {
     setTimeout(function () {
-      image.style.bottom = "150px";
-      counter = 150;
+      image.style.bottom = "140px";
+      counter = 140;
     }, 100);
   }
 });
